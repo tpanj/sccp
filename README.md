@@ -10,6 +10,6 @@ Simple C Config Parser is simple to use generic reader of key value combinations
 * If multiple keys are in file returns first occurrence found with value.
 
 # Compiling
-gcc main.c simple_config.c -std=c89 -pedantic -Wall
+gcc main.c simple_config.c -std=c89 -pedantic -Wall -o sccp
 
 Tested also with Visual Studio from 2008 up to 2017
